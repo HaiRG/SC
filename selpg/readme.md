@@ -385,39 +385,33 @@ if page_ctr < sa.start_page{
 ## 实验测试
 
 1. `$ selpg -s1 -e1 input_file`
-![](https://github.com/HaiRG/SC/raw/master/selpg/image/1.png)
+![](https://github.com/HaiRG/SC/raw/master/selpg/image/1.PNG)
 2. `$ selpg -s1 -e1 < input_file`
-![](https://github.com/HaiRG/SC/raw/master/selpg/image/2.png)
+![](https://github.com/HaiRG/SC/raw/master/selpg/image/2.PNG)
 3. `$ other_command | selpg -s10 -e20`
-![](https://github.com/HaiRG/SC/raw/master/selpg/image/3.png)
+![](https://github.com/HaiRG/SC/raw/master/selpg/image/3.PNG)
 4. `$ selpg -s10 -e20 input_file >output_file`
-![](https://github.com/HaiRG/SC/raw/master/selpg/image/4.png)
+![](https://github.com/HaiRG/SC/raw/master/selpg/image/4.PNG)
 5. `$ selpg -s10 -e20 input_file 2>error_file`
-![](https://github.com/HaiRG/SC/raw/master/selpg/image/5.png)
-6. `$ selpg -s10 -e20 input_file >output_file 2>error_file
-`
-![](https://github.com/HaiRG/SC/raw/master/selpg/image/6.png)
-7. `$ selpg -s10 -e20 input_file >output_file 2>/dev/null
-`
-![](https://github.com/HaiRG/SC/raw/master/selpg/image/7.png)
-8. `$ selpg -s10 -e20 input_file >/dev/null
-`
-![](https://github.com/HaiRG/SC/raw/master/selpg/image/8.png)
-9. `$ selpg -s10 -e20 input_file | other_command
-`
-![](https://github.com/HaiRG/SC/raw/master/selpg/image/9.png)
-10. `$ selpg -s10 -e20 input_file 2>error_file | other_command
-`
-![](https://github.com/HaiRG/SC/raw/master/selpg/image/10.png)
+![](https://github.com/HaiRG/SC/raw/master/selpg/image/5.PNG)
+6. `$ selpg -s10 -e20 input_file >output_file 2>error_file`
+![](https://github.com/HaiRG/SC/raw/master/selpg/image/6.PNG)
+7. `$ selpg -s10 -e20 input_file >output_file 2>/dev/null`
+![](https://github.com/HaiRG/SC/raw/master/selpg/image/7.PNG)
+8. `$ selpg -s10 -e20 input_file >/dev/null`
+![](https://github.com/HaiRG/SC/raw/master/selpg/image/8.PNG)
+9. `$ selpg -s10 -e20 input_file | other_command`
+![](https://github.com/HaiRG/SC/raw/master/selpg/image/9.PNG)
+10. `$ selpg -s10 -e20 input_file 2>error_file | other_command`
+![](https://github.com/HaiRG/SC/raw/master/selpg/image/10.PNG)
 11. `$ selpg -s10 -e20 -l66 input_file`
-![](https://github.com/HaiRG/SC/raw/master/selpg/image/11.png)
+![](https://github.com/HaiRG/SC/raw/master/selpg/image/11.PNG)
 12. `$ selpg -s10 -e20 -f input_file`
-![](https://github.com/HaiRG/SC/raw/master/selpg/image/12.png)
+![](https://github.com/HaiRG/SC/raw/master/selpg/image/12.PNG)
 13. `$ selpg -s10 -e20 -dlp1 input_file`
-![](https://github.com/HaiRG/SC/raw/master/selpg/image/13.png)
-14. `$ selpg -s10 -e20 input_file > output_file 2>error_file &
-`
-![](https://github.com/HaiRG/SC/raw/master/selpg/image/14.png)
+![](https://github.com/HaiRG/SC/raw/master/selpg/image/13.PNG)
+14. `$ selpg -s10 -e20 input_file > output_file 2>error_file &`
+![](https://github.com/HaiRG/SC/raw/master/selpg/image/14.PNG)
 
 以上即为本次实验的全部内容
 
