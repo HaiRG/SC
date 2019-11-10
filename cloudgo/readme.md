@@ -137,25 +137,8 @@
     </body>
     </html>
     ```
-    其效果如下
-        <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Main Page</title>
-    </head>
-    <body>
-        <div>
-            <p>Hello, What's your name?</p>
-        </div>
-        <div>
-            <form method="post" action="/">
-                <p>Name:</p>
-                <input type="text" name="username">
-                <input type="submit" value="确认" id="submit">
-            </form>
-        </div>
-    </body>
-    </html>
+  
+  
     用于获取输入的名字，传递到`main`页面
     
     `main.tmpl`,其代码如下：
@@ -175,6 +158,8 @@
     </body>
     </html>
     ```
+    
+    用于显示获得的名字
     ### 结果截图
     首先是输入名字：
 
